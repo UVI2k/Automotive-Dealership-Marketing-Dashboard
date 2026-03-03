@@ -1,6 +1,6 @@
-# Retail Car Store Marketing Analytics Dashboard (SQL + Tableau)
+# Automotive Dealership Marketing Analytics Dashboard (SQL + Tableau)
 
-This is a **simple, JD-aligned** marketing analytics project (Auto retail) that demonstrates:
+This is a marketing analytics project that demonstrates:
 - Campaign effectiveness analysis
 - KPI design (CTR, CPL, CAC, ROAS, funnel conversion)
 - Store-level performance variation
@@ -24,30 +24,14 @@ This is a **simple, JD-aligned** marketing analytics project (Auto retail) that 
 - **CAC** = spend / sales  
 - **ROAS** = revenue / spend  
 
-## Build / Rebuild the SQLite DB
-If you want to recreate the DB from CSVs:
-
-1. Create a DB and tables
-2. Import CSVs
-3. Create KPI views
-
-### Option A (Quick): Use the provided DB
-Use `autocanada_marketing.db` directly.
-
-### Option B (Rebuild): Use the Python script
-Run:
-```bash
-python build_sqlite_db.py
-```
-
-## Tableau Setup (Fast)
+## Tableau Setup 
 1. Open Tableau → **Connect** → **SQLite**
 2. Select `autocanada_marketing.db`
 3. Use these sources:
    - `v_channel_kpis` (main dashboard)
    - `v_store_weekly` (store variation / weekly trend)
 
-## Suggested Dashboard Pages
+## Dashboard Pages
 ### Page 1 — Executive Overview
 - KPI cards: Spend, Leads, Sales, Revenue, ROAS, CPL, CAC, Lead→Sale %
 - Trend line: Spend vs Revenue (weekly)
@@ -62,5 +46,4 @@ python build_sqlite_db.py
 - Scatter: Spend vs Revenue by store (weekly)
 - Heatmap (optional): Store × Channel ROAS
 
-## Notes
-This dataset is synthetic but realistic enough for portfolio use.
+
