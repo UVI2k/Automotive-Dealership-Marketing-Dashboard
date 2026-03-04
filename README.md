@@ -1,4 +1,4 @@
-# Automotive Dealership Marketing Analytics Dashboard (SQL + Tableau)
+# Automotive Dealership Marketing Analytics Dashboard (SQL + Power BI)
 
 This is a marketing analytics project that demonstrates:
 - Campaign effectiveness analysis
@@ -36,6 +36,7 @@ This is a marketing analytics project that demonstrates:
 - KPI cards: Spend, Leads, Sales, Revenue, ROAS, CPL, CAC, Lead→Sale %
 - Trend line: Spend vs Revenue (weekly)
 - Bar: ROAS by Channel
+<img width="1386" height="776" alt="Screenshot 2026-03-03 155018" src="https://github.com/user-attachments/assets/74fc3e94-a3b0-4886-b9b1-858300054cf2" />
 
 ### Page 2 — Channel Performance
 - Table: Channel | Spend | Leads | Sales | ROAS | CPL | CAC
