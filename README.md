@@ -25,7 +25,7 @@ This is a marketing analytics project that demonstrates:
 - **ROAS** = revenue / spend  
 
 ## Tableau Setup 
-1. Open Tableau → **Connect** → **SQLite**
+1. Open Power BI → **Connect** → **SQLite**
 2. Select `autocanada_marketing.db`
 3. Use these sources:
    - `v_channel_kpis` (main dashboard)
@@ -41,10 +41,11 @@ This is a marketing analytics project that demonstrates:
 ### Page 2 — Channel Performance
 - Table: Channel | Spend | Leads | Sales | ROAS | CPL | CAC
 - Funnel chart: Leads → Test Drives → Sales (by channel)
+<img width="1383" height="777" alt="Screenshot 2026-03-03 174625" src="https://github.com/user-attachments/assets/7d25aff1-a86c-4263-a3bb-9869c9a98729" />
 
 ### Page 3 — Store Performance (Variation)
 - Store leaderboard by ROAS (top/bottom)
 - Scatter: Spend vs Revenue by store (weekly)
-- Heatmap (optional): Store × Channel ROAS
+<img width="1382" height="780" alt="Screenshot 2026-03-03 175930" src="https://github.com/user-attachments/assets/9a6d1902-6576-46b8-930d-a238bcc1511a" />
 
 
