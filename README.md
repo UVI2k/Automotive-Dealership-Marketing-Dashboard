@@ -24,7 +24,7 @@ This is a marketing analytics project that demonstrates:
 - **CAC** = spend / sales  
 - **ROAS** = revenue / spend  
 
-## Tableau Setup 
+## Dashboard Setup 
 1. Open Power BI → **Connect** → **SQLite**
 2. Select `autocanada_marketing.db`
 3. Use these sources:
